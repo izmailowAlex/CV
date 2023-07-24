@@ -1,1 +1,1 @@
-# CV
+[Кликни меня и я покажу тебе моё CV](https://izmailowalex.github.io/CV/)
