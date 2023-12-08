@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #cbc7c7;
+}
+
+.cv {
+  margin: 2% auto 2% auto;
+  max-width: 1000px;
+  display: flex;
+  box-shadow: 0 10px 50px #888585;
+}
+
+.cv-left {
+  padding: 10px 0;
+  width: 28%;
+  line-height: 18px;
+  background-color: #888585;
+  color: #ececec;
+}
+
+.avatar {
+  width: 260px;
+  height: 260px;
+  background-color: #fec72f;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  margin: 10px auto;
+}
+
+.avatar-image {
+  background-image: url(./../components/images/new_photo.jpg);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  margin: auto;
+}
+
+.skills,
+.soft,
+.contacts {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.skills__title,
+.soft__title {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #fec72f;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.skills-list,
+.soft-list {
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 20px 0 10px 0;
+  line-height: 14px;
+  list-style: none;
+}
+
+.skills-item,
+.soft-item {
+  display: flex;
+  gap: 5px;
+  line-height: 18px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.contacts {
+  list-style: none;
+}
+
+.contacts-upper,
+.contacts-info {
+  height: 30px;
+}
+
+.contacts-upper {
+  display: flex;
+}
+
+.contacts-upper-square {
+  width: 40px;
+  height: 100%;
+  background-color: #fec72f;
+}
+
+.contacts-upper__title {
+  padding-left: 5%;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.contacts-info-link {
+  text-decoration: none;
+  height: 30px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (hover: hover) {
+  .contacts-info-link:hover {
+    text-decoration: underline;
+    color: #fec72f;
+  }
+
+  .contacts-info-link:hover .contacts-info-text {
+    color: #fec72f;
+  }
+}
+
+@media (hover: none) {
+  .contacts-info-link:active {
+    text-decoration: underline;
+    color: #fec72f;
+  }
+
+  .contacts-info-link:active .contacts-info-text {
+    color: #fec72f;
+  }
+}
+
+.contacts-info-image {
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.image_1 {
+  background-image: url(./../components/images/location.png);
+}
+
+.image_2 {
+  background-image: url(./../components/images/linkedin-logo.png);
+}
+
+.image_3 {
+  background-image: url(./../components/images/github-sign.png);
+}
+
+.image_4 {
+  background-image: url(./../components/images/phone-call.png);
+}
+
+.image_5 {
+  background-image: url(./../components/images/email.png);
+}
+
+.contacts-info-text {
+  display: flex;
+  align-items: center;
+  color: #353535;
+}
+
+.cv-right {
+  padding: 10px 0;
+  width: 72%;
+  background-color: #ececec;
+  border-left: 2px solid #fec72f;
+}
+
+.header {
+  margin: 13% 0 12% 0;
+  padding-left: 30px;
+  width: 100%;
+  height: 100px;
+  background-color: #fec72f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.header__title {
+  font-size: 37px;
+  letter-spacing: 3px;
+}
+
+.header__name span {
+  font-weight: bold;
+}
+
+.header-prof {
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.about,
+.education,
+.work,
+.lang {
+  padding: 20px 40px;
+}
+
+.about__title,
+.education__title,
+.work__title,
+.lang__title {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #504d4d;
+  color: #504d4d;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.about-text,
+.education-list,
+.work-text,
+.lang-list {
+  padding-top: 30px;
+  color: rgb(80, 77, 77);
+  font-size: 14px;
+  line-height: 22px;
+  list-style: none;
+}
+
+.education-images {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.education-images__img {
+  width: 150px;
+  height: 100px;
+}
+
+.work-text {
+  list-style: none;
+}
