@@ -52,10 +52,13 @@
   <img src="./components/images/css.png" title="Css" alt="Css" width="40" height="40"/>&nbsp;
   <img src="./components/images/javascript.png" title="Javascript" alt="Javascript" width="40" height="40"/>&nbsp;
   <img src="./components/images/typescript.png" title="Typescript" alt="Typescript" width="40" height="40"/>&nbsp;
+  <img src="./components/images/webpack.png" title="Webpack" alt="Webpack" width="40" height="40"/>&nbsp;
   <img src="./components/images/git.jpeg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
   <img src="./components/images/GitHub.png" title="GitHub" alt="GitHub" width="50" height="40"/>&nbsp;
   <img src="./components/images/photoshop.webp" title="Photoshop" alt="Photoshop" width="40" height="40"/>&nbsp;
   <img src="./components/images/figma.jpeg" title="Figma" alt="Figma" width="70" height="40"/>&nbsp;
+  <img src="./components/images/bem.jpeg" title="BEM" alt="BEM" width="70" height="40"/>&nbsp;
+  <img src="./components/images/mobx.png" title="MobX" alt="MobX" width="40" height="40"/>&nbsp;
   <img src="./components/images/sony_vegas.jpeg" title="Sony Vegas" alt="Sony Vegas" width="70" height="40"/>&nbsp;
   <img src="./components/images/Guitar_Pro.jpeg" title="Guitar Pro" alt="Guitar Pro" width="40" height="40"/>&nbsp;
 </div>
